@@ -1,0 +1,30 @@
+<RMM>
+	<NAME>KIBOT 2</NAME>
+	<DESC>ROBOWARE consumer interactive purpose robot machine</DESC>
+	<INFO>
+		<DATE>2012-01-10</DATE>
+		<TIME>05:45:02.56 ¿ÀÈÄ</TIME>
+	</INFO>
+	<EDIT>
+		<LENGTH>30</LENGTH>
+	</EDIT>
+
+	<FRAMELIST>
+		<JOINT>
+			<NAME>Body</NAME>
+			<ADDR>0</ADDR>
+			<CH>-1</CH>
+			<COUNT>4</COUNT>
+			<TIME>0 0.523614 5.513347 5.728952</TIME>
+			<ANGLE>0 0 0 0</ANGLE>
+		</JOINT>
+		<JOINT>
+			<NAME>Head rotation</NAME>
+			<ADDR>128</ADDR>
+			<CH>0</CH>
+			<COUNT>4</COUNT>
+			<TIME>0 0.523614 5.513347 5.728952</TIME>
+			<ANGLE>0 0.5235988 0.5235988 -0.5235988</ANGLE>
+		</JOINT>
+	</FRAMELIST>
+</RMM>

@@ -1,0 +1,78 @@
+<RMM>
+	<NAME>KIBOT 2</NAME>
+	<DESC>ROBOWARE consumer interactive purpose robot machine</DESC>
+	<INFO>
+		<DATE>2011-10-28</DATE>
+		<TIME>04:37:28.86 ¿ÀÈÄ</TIME>
+	</INFO>
+	<EDIT>
+		<LENGTH>30</LENGTH>
+	</EDIT>
+
+	<FRAMELIST>
+		<JOINT>
+			<NAME>Body</NAME>
+			<ADDR>0</ADDR>
+			<CH>-1</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.05863192</TIME>
+			<ANGLE>0 0</ANGLE>
+		</JOINT>
+		<JOINT>
+			<NAME>Head rotation</NAME>
+			<ADDR>128</ADDR>
+			<CH>0</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.05863192</TIME>
+			<ANGLE>0 0</ANGLE>
+		</JOINT>
+		<VAR>
+			<NAME>Left horn LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>0</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>-16777216 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Right horn LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>1</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>-16777216 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Left arm LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>2</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>-16744448 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>right arm LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>3</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>-16744448 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Tail LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>4</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>0 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Logo LED</NAME>
+			<ADDR>130</ADDR>
+			<CH>0</CH>
+			<COUNT>2</COUNT>
+			<TIME>0 0.2345277</TIME>
+			<DATA>0 0</DATA>
+		</VAR>
+	</FRAMELIST>
+</RMM>

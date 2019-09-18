@@ -1,0 +1,53 @@
+<RMM>
+	<NAME>KIBOT 2</NAME>
+	<DESC>KT consumer perforce robot terminal the KIBOT2 by ROBOWARE RSE</DESC>
+	<INFO>
+		<DATE>2012-07-11</DATE>
+		<TIME>14:55:33.670</TIME>
+	</INFO>
+	<EDIT>
+		<LENGTH>20</LENGTH>
+	</EDIT>
+	<FRAMELIST>
+		<JOINT>
+			<NAME>Head rotation</NAME>
+			<ADDR>128</ADDR>
+			<CH>0</CH>
+			<COUNT>8</COUNT>
+			<TIME>0.00 0.30 0.60 0.90 1.20 1.50 1.80 2.10</TIME>
+			<ANGLE>0.000000 0.523599 0.523599 0.000000 0.000000 0.523599 0.523599 0.000000</ANGLE>
+		</JOINT>
+		<VAR>
+			<NAME>Left horn LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>0</CH>
+			<COUNT>8</COUNT>
+			<TIME>0.00 0.50 0.60 1.10 1.20 1.70 1.80 2.30</TIME>
+			<DATA>-1 0 -256 0 -1 0 -256 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Right horn LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>1</CH>
+			<COUNT>8</COUNT>
+			<TIME>0.00 0.50 0.60 1.10 1.20 1.70 1.80 2.30</TIME>
+			<DATA>-1 0 -256 0 -1 0 -256 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>Left arm LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>2</CH>
+			<COUNT>2</COUNT>
+			<TIME>0.00 2.00</TIME>
+			<DATA>-256 0</DATA>
+		</VAR>
+		<VAR>
+			<NAME>right arm LED</NAME>
+			<ADDR>131</ADDR>
+			<CH>3</CH>
+			<COUNT>2</COUNT>
+			<TIME>0.00 2.00</TIME>
+			<DATA>-256 0</DATA>
+		</VAR>
+	</FRAMELIST>
+</RMM>
